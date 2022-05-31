@@ -54,18 +54,45 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
-                        <h1 class="section-heading">YOLOv4</h1>
-                        <hr>
+                        <h1 class="section-heading">Work</h1><hr>
+                        <p>1. 使用公開的即時影像監視器，挑選適合的地點後用螢幕錄製的方式取得目標時段的錄影檔。</p>
+                        <p>2. 利用AI對錄影檔進行影像辨識，獲得紀錄辨識結果的txt檔。</p>
+                        <p>3. 寫一些簡單的程式來進行計算，對txt檔做統計上的分析。</p>
+                        <p>4. 將分析結果視覺化，並將結果呈現在網頁上。</p>
+                        <h1 class="section-heading">CCTV</h1><hr>
+                        <a href="https://tw.live/#.YpZh0OPG7_Q.link"><p>- - > 公開即時影像監視器</p></a>
+                        <p>我們希望分析地點與我們的生活圈越靠近越好，但有提供的地點其實非常的有限，裡面也有很多監視器連線失敗或正在維護，也有一些畫面會非常卡，現實世界過了好幾秒畫面中只改變了一秒，多方考慮後我們最後選擇了以下個地點做分析：</p>
+                        <blockquote class="blockquote">(1) 北門路二段與小東路口西桿(向東) (5/25)</blockquote>
+                        <blockquote class="blockquote">(2) 民族路一段與前鋒路口南桿(向北) (5/26)</blockquote>
+                        <p>我們選擇的時段為：</p>
+                        <blockquote class="blockquote">8:00~8:05, 9:00~9:05 , ...... , 17:00 ~ 17:05, 共10個時段</blockquote>
+                        <details>
+                            <summary><p>點擊查看兩個地點的 8:00 ～ 8:05 分析前內容</p></summary>
+                            <blockquote class="blockquote">(1) 北門路二段與小東路口西桿(向東) (5/25 8:00 ~ 8:05) </blockquote>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/bUPKpxZEh0Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <br><br>
+                            <blockquote class="blockquote">(2) 民族路一段與前鋒路口南桿(向北) (5/26 8:00 ~ 8:05)</blockquote>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/G_Riz9lFESs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </details>
+                        <h1 class="section-heading">YOLOv4</h1><hr>
                         <img class="img-fluid" src="assets/img/yolo.png" alt="..." />
                         <span class="caption text-muted">YOLO: Real-Time Object Detection</span>
-                        <p>使用YOLOv4辨識監視器畫面</p>
-                        <br>
-                        <h1 class="section-heading">python</h1>
-                        <hr>
+                        <a href="https://github.com/AlexeyAB/darknet"><p>- - > 安裝 YOLOv4</p></a>
+                        <p>YOLO (You Only Look Once) 是一個速度快、表現佳的 One-State 物件偵測模型，因為可以同時偵測物件的類別和標定其所在位置，而得其名。</p>
+                        <p>原作者 Joseph Redmon 在 2018 年釋出最後一版的 YOLOv3 後，就宣佈了不再進行更新。而此後，當時參與開發的其他學者，相繼研究出了 YOLOv4, v5, ...等版本。</p>
+                        <details>
+                            <summary><p>點擊查看兩個地點的 8:00 ～ 8:05 分析後內容</p></summary>
+                            <blockquote class="blockquote">(1) 北門路二段與小東路口西桿(向東) (5/25 8:00 ~ 8:05) </blockquote>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/7KT5hvU8mZk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <a href="assets/txt/(1)8.00.txt"><p>- - > (1)8.00.txt</p></a>
+                            <blockquote class="blockquote">(2) 民族路一段與前鋒路口南桿(向北) (5/26 8:00 ~ 8:05)</blockquote>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/vylZQcyxkbA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <a href="assets/txt/(2)8.00.txt"><p>- - > (2)8.00.txt</p></a>
+                        </details>
+                        <h1 class="section-heading">Python</h1><hr>
                         <p>使用python程式碼分析YOLOv4產出的txt檔內容</p>
                         <br>
-                        <h1 class="section-heading">Matplotlib</h1>
-                        <hr>
+                        <h1 class="section-heading">Matplotlib</h1><hr>
                         <p>使用matplotlib模組視覺化分析結果</p>
                     </div>
                 </div>
